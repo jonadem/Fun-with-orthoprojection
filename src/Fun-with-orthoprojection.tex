@@ -4,110 +4,22 @@
 \usepackage[utf8]{inputenc}
 \usepackage{tikz}
 \usepackage{amsmath}
+\usepackage{newtxtext} % font combining small caps and sans-serif
 
 \renewcommand{\familydefault}{\sfdefault} % change the font for the whole document to sans-serif
 
 \begin{document}
-\noindent\begin{minipage}[c]{0.49\textwidth}
-\begin{center}
-\begin{tikzpicture}[scale=2]%,cap=round,>=latex]
 
-  \draw (0,0) rectangle (4,2);
-  \draw (0,2) rectangle (4,3);
-  
-\end{tikzpicture}
-\\
-TOP
-\end{center}
-\end{minipage}
-\begin{minipage}[c]{0.5\textwidth} 
-\flushright
-\begin{center}
-FOO
-\end{center}
-
-\end{minipage}
-
-\vfill
-
-\noindent\begin{minipage}[c]{0.5\textwidth}
-\begin{center}
-\begin{tikzpicture}[scale=2]%,cap=round,>=latex]
-
-  \draw (0,0) rectangle (4,1);
-  \draw (0,1) rectangle (4,2);
-
-\end{tikzpicture}
-
-FRONT
-
-\end{center}
-\end{minipage}%
-\begin{minipage}[c]{0.5\textwidth} 
-\flushright
-\begin{center}
-\begin{tikzpicture}[scale=2]%,cap=round,>=latex]
-  \draw (0,0) rectangle (2,1);
-  \draw (2,0) rectangle (3,2);
-\end{tikzpicture}
-
-RIGHT
-
-\end{center}
-\end{minipage}
-
-\vfill
-
+\input{ex/ex1.tex}
 \newpage
-
-\noindent\begin{minipage}[c]{0.49\textwidth}
-\begin{center}
-\begin{tikzpicture}[scale=1.25]%,cap=round,>=latex]
-
-  \draw (2,2) -- (4,2) -- (4,4) -- (2,4) -- cycle;
-  \draw (0,0) rectangle (2,2);
-
-\end{tikzpicture}
-\\
-TOP
-\end{center}
-\end{minipage}
-\begin{minipage}[c]{0.5\textwidth} 
-\flushright
-\begin{center}
-FOO
-\end{center}
-
-\end{minipage}
-
-\vfill
-
-\noindent\begin{minipage}[c]{0.5\textwidth}
-\begin{center}
-\begin{tikzpicture}[scale=1.25]%,cap=round,>=latex]
-
-  \draw (3,3) -- (4,3) -- (4,4) -- (3,4) -- cycle;
-  \draw (0,0) rectangle (2,3);
-
-\end{tikzpicture}
-
-FRONT
-
-\end{center}
-\end{minipage}%
-\begin{minipage}[c]{0.5\textwidth} 
-\flushright
-\begin{center}
-\begin{tikzpicture}[scale=1.25]%,cap=round,>=latex]
-  \draw (3,3) -- (4,3) -- (4,4) -- (3,4) -- cycle;
-  \draw (0,0) rectangle (3,3);
-\end{tikzpicture}
-
-RIGHT
-
-\end{center}
-\end{minipage}
-
-\vfill
+\input{ex/ex2.tex}
+\newpage
+\input{ex/ex3.tex}
+\newpage
+\input{ex/ex4.tex}
+\newpage
+\input{ex/ex5.tex}
+\newpage
+\input{ex/ex6.tex}
 
 \end{document}
