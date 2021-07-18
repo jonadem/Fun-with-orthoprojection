@@ -1,0 +1,11 @@
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.log
+
+## Intermediate documents:
+*.dvi
+
+## Build tool auxiliary files:
+*.synctex.gz
+
+# Inspired from https://github.com/github/gitignore/blob/master/TeX.gitignore
