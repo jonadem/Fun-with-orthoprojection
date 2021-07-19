@@ -11,3 +11,7 @@ jobs:
         with:
           root_file: Fun-with-orthoprojection.tex
           working_directory: src/
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: src/Fun-with-orthoprojection.pdf
