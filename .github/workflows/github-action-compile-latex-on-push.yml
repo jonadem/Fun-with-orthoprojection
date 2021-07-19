@@ -16,3 +16,5 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: src/Fun-with-orthoprojection.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
