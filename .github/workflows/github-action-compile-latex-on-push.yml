@@ -9,5 +9,5 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: src/Fun-with-orthoprojection.tex
+          root_file: Fun-with-orthoprojection.tex
           working_directory: src/
